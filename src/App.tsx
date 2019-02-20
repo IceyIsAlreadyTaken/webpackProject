@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import { Button } from 'antd';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -19,7 +20,9 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Button type="primary">Primary</Button>
         </header>
+
       </div>
     );
   }

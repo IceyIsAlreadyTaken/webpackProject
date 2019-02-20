@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "react-app"
+    ],
+    "plugins": [
+        [
+            "syntax-dynamic-import"
+        ],
+        [
+            "import",
+            {
+                "style": "css",
+                "libraryName": "antd"
+            }
+        ]
+    ]
+}
